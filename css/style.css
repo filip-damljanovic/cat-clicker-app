@@ -1,0 +1,76 @@
+body, input {
+  background-color: #f1f1f1;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+li, button, div {
+  padding: 10px;
+}
+
+ul, h2, p, button, div, input {
+  font-weight: bold;
+}
+
+ul, h2, p {
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+li, button, img, #admin-area {
+  border-radius: 10px;
+}
+
+li, button, #admin-area {
+  color: white;
+}
+
+li, button {
+  display: inline;
+  margin: 5px;
+  font-size: 15px;
+  background-color: #4caf50;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+button, input {
+  border: none;
+}
+
+button {
+  background-color: #43576d;
+}
+
+div {
+  margin: 10px;
+}
+
+#admin-button {
+  margin-bottom: 20px;
+}
+
+#admin-area {
+  background-color: #54878a;
+}
+
+#admin-area div span {
+  display: block;
+  padding: 7px;
+  text-align: justify;
+}
+
+input {
+  border-radius: 5px;
+  margin-left: 5px;
+  width: 250px;
+  padding: 3px;
+}

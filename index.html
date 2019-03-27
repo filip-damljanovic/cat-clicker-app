@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Cat Clicker</title>
+  <meta charset="UTF-8">
+  <title>Cat Clicker</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <ul id="cat-list"></ul>
-    <div id="cat">
-        <h2 id="cat-name"></h2>
-        <div id="cat-count"></div>
-        <img id="cat-img" src="" alt="cute cat">
-    </div>
-    <script src="js/app.js"></script>
+
+  <!-- Header -->
+	<div id="header">
+		<p>Cats:</p>
+	    <ul id="cat-list"></ul>
+	</div>
+
+  <!-- Cat area -->
+  <div id="cat">
+      <h2 id="cat-name"></h2>
+      <div id="cat-count"></div>
+      <img id="cat-img" src="" alt="cute cat">
+  </div>
+
+  <!-- Admin button & admin area -->
+  <button id="admin-button" type="button">Admin area</button>
+  <div id="admin-area">
+  	<div id="inputs">
+    	<span>Cat name:<input type="text" name="cname" id="cname"></span>
+    	<span>Cat image URL: <input type="text" name="curl" id="curl"></span>
+    	<span>Number of clicks: <input type="text" name="cclicks" id="cclicks"></span>
+  	</div>
+  	<button id="save-button" type="button">Save</button>
+  	<button id="cancel-button" type="button">Cancel</button>
+  </div>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
